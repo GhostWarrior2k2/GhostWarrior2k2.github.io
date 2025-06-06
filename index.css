@@ -266,4 +266,33 @@ form{
 
 li{
 	margin: 5px;
+  list-style: square;
+}
+
+
+.button {
+  color: white;
+  background-color: #57bdff;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  padding: 10px 20px; /* adjusted padding for better button size */
+  border-radius: 5px;
+  display: inline-block; /* added to make the link behave like a button */
+}
+
+
+
+
+.button:hover {
+  color: grey;
+  background-color: #57bdff;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  padding: 10px 20px; /* adjusted padding for better button size */
+  border-radius: 5px;
+  display: inline-block; /* added to make the link behave like a button */
 }
